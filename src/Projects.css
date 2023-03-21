@@ -1,0 +1,77 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background: linear-gradient(40deg,rgba(90,0,12,0.4),rgba(80,225,255,0.3));
+}
+.projects span{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(255,255,255,0.4);
+    margin-bottom: 3vh;
+    -webkit-text-stroke: 0.3px rgba(25,90,120,0.7);
+}
+#project-case{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+#project-case #Project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3),-2px -2px 4px rgba(255,255,255,0.1);
+    padding: 1vh;
+    margin: 1vh;
+    border-radius: 30px;
+    min-width: 200px;
+    max-width: 80%;
+    width: auto;
+}
+#project-case #Project img{
+    border-radius: 30px;
+}
+#Project h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    background: rgba(255,255,255,0.4);
+    margin: 1vh;
+    border-radius: 12px 0px 12px 0px;
+    padding: 1vh;
+
+}
+#Project p{
+    font-size: 0.8rem;
+    padding: 1vh;
+    color: rgba(255,255,5,0.5);
+    border-radius: 12px;
+}
+#Project a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.4);
+    background: rgba(0,0,0,0.4);
+    border-radius: 12px;
+    padding: 1vh;
+    margin: 1vh;
+}
+#toggle-home{
+    display: block;
+    width: max-content;
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.home-link{
+    text-decoration: none;
+    padding: 1vh;
+    font-size: 1rem;
+    color: rgba(255,255,255,0.4);
+}
